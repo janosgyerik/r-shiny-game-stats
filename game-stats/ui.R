@@ -12,7 +12,7 @@ ui <- fluidPage(
       tabsetPanel(
         type = "tabs", selected = "Stats",
         #tabPanel("About", about),
-        tabPanel("Stats", tableOutput("stats"))
+        tabPanel("Stats", dataTableOutput("stats"))
       )
     )
   )
